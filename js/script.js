@@ -1,3 +1,11 @@
+// musica
+const caixa = document.querySelector("main");
+
+const music = new Audio("./sound/music.mp3");
+music.volume = 0.2;
+
+caixa.addEventListener('mouseover', ()=>music.play());
+
 // dados do pokemon
 const pokemonName = document.querySelector('.pokemon__name');
 const pokemonNumber = document.querySelector('.pokemon__number');
